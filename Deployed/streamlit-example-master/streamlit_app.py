@@ -5,14 +5,15 @@ import pandas as pd
 import streamlit as st
 
 """
-# Welcome to Streamlit!
+# About
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+At UniSight, we want to provide accessible, easy-to-read data and 
+visuals to help potential and current students make informed decisions 
+on college degrees and the careers they lead to. Guiding individuals through 
+major college and career decisions, with up-to-date information, is our 
+objective.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
-
-In the meantime, below is an example of what you can do with just a few lines of code:
+# Select a College
 """
 
 total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
