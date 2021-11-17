@@ -13,7 +13,7 @@ on college degrees and the careers they lead to. Guiding individuals through
 major college and career decisions, with up-to-date information, is our 
 objective.
 
-# Select a College
+# Select a hoe
 """
 
 total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
