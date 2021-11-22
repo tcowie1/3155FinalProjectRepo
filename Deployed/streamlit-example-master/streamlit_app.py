@@ -3,6 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+from multiapp import MultiApp
 
 #Home and Navigation Setup
 st.set_page_config(page_title='UniSight', page_icon=":goat:")
