@@ -4,8 +4,10 @@ import math
 import pandas as pd
 import streamlit as st
 
+#Home and Navigation Setup
 """
 # Home
+
 """
 navChoice = st.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
 """
@@ -16,3 +18,5 @@ major college and career decisions, with up-to-date information, is our
 objective.
 
 """
+#Sidebar
+st.sidebar.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
