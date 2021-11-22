@@ -17,4 +17,5 @@ objective.
 
 """
 #Sidebar Navigation
-navChoice = st.sidebar.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
+st.sidebar.header("Home")
+navChoice = st.sidebar.selectbox('Home', ('Home', 'Salaries', 'Loans'))
