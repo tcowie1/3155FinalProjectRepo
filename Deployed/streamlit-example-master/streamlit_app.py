@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 
 #Home and Navigation Setup
+st.set_page_config(page_title='UniSight', page_icon=":goat:")
 """
 # UniSight
 
