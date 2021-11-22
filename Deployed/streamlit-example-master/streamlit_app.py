@@ -19,4 +19,4 @@ objective.
 
 """
 #Sidebar
-st.sidebar.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
+st.sidebar.selectbox('Navigation', ('test', 'test2', 'test3'))
