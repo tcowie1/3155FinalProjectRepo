@@ -8,9 +8,6 @@ import streamlit as st
 """
 # Home
 
-"""
-navChoice = st.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
-"""
 At UniSight, we want to provide accessible, easy-to-read data and 
 visuals to help potential and current students make informed decisions 
 on college degrees and the careers they lead to. Guiding individuals through 
@@ -18,5 +15,5 @@ major college and career decisions, with up-to-date information, is our
 objective.
 
 """
-#Sidebar
-st.sidebar.selectbox('Navigation', ('test', 'test2', 'test3'))
+#Sidebar Navigation
+st.sidebar.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
