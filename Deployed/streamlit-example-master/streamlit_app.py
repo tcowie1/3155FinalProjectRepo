@@ -6,7 +6,7 @@ import streamlit as st
 
 #Home and Navigation Setup
 """
-# Home
+# UniSight
 
 At UniSight, we want to provide accessible, easy-to-read data and 
 visuals to help potential and current students make informed decisions 
@@ -16,4 +16,4 @@ objective.
 
 """
 #Sidebar Navigation
-st.sidebar.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
+navChoice = st.sidebar.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
