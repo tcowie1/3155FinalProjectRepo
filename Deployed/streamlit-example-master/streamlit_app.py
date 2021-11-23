@@ -4,6 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 
+
 #Home and Navigation Setup
 st.set_page_config(page_title='UniSight', page_icon=":goat:")
 """
@@ -19,3 +20,4 @@ objective.
 #Sidebar Navigation
 st.sidebar.header("Home")
 navChoice = st.sidebar.selectbox('Navigation', ('Home', 'Salaries', 'Loans'))
+#Test
